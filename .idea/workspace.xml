@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25eae0e-1d3f-4373-83af-817cdcc717d9" name="Changes" comment="자료구조 알고리즘 복습 프로젝트 생성">
-      <change afterPath="$PROJECT_DIR$/src/chap01/Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeSign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Max3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Max3m.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Max4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Med3m.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Median.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Min3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Min4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Multi99Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumForPos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumForQ7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/TriangleLB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/ArrayEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/CloneArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/IntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/IntArrayInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/MaxOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/MaxOfArrayRand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661573991482</updated>
       <workItem from="1661573992782" duration="451000" />
-      <workItem from="1661574461652" duration="18373000" />
+      <workItem from="1661574461652" duration="18709000" />
+      <workItem from="1661746264930" duration="10794000" />
     </task>
     <task id="LOCAL-00001" summary="자료구조 알고리즘 복습 프로젝트 생성">
       <created>1661574633538</created>
