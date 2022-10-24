@@ -2,9 +2,19 @@ package chap02;
 
 //  연습문제 Q4
 public class Q4 {
+//    static void copy(int[] a, int[] b) {
+//        for (int i = 0; i < b.length; i++) {
+//            a[i] = b[i];
+//        }
+//    }
+
     static void copy(int[] a, int[] b) {
-        for (int i = 0; i < b.length; i++) {
+        for (int i = 0; i < b.length / 2; i++) {
             a[i] = b[i];
+            a[b.length - 1 - i] = b[b.length - 1 - i];
+        }
+        if (b.length % 2 != 0) {
+            a[b.length / 2] = b[b.length / 2];
         }
     }
 

@@ -1,5 +1,6 @@
 package chap02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //  배열 요소에 값을 읽어 들여 역순으로 정렬합니다.
@@ -34,8 +35,6 @@ public class ReverseArray {
         reverse(x);
 
         System.out.println("요소를 역순으로 정렬했습니다.");
-        for (int i = 0; i < x.length; i++) {
-            System.out.println("x[" + i + "] = " + x[i]);
-        }
+        System.out.println("x = " + Arrays.toString(x));
     }
 }

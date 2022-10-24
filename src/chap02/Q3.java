@@ -4,10 +4,21 @@ import java.util.Scanner;
 
 //  연습문제 Q3
 public class Q3 {
+//    static int sumOf(int[] a) {
+//        int sum = 0;
+//        for (int i = 0; i < a.length; i++) {
+//            sum += a[i];
+//        }
+//        return sum;
+//    }
+
     static int sumOf(int[] a) {
         int sum = 0;
-        for (int i = 0; i < a.length; i++) {
-            sum += a[i];
+        for (int i = 0; i < a.length / 2; i++) {
+            sum += a[i] + a[a.length - i - 1];
+        }
+        if (a.length % 2 != 0) {
+            sum += a[a.length / 2];
         }
         return sum;
     }

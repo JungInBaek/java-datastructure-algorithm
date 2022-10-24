@@ -2,9 +2,19 @@ package chap02;
 
 //  연습문제 Q5
 public class Q5 {
+//    static void rcopy(int[] a, int[] b) {
+//        for (int i = 0; i < b.length; i++) {
+//            a[b.length - i - 1] = b[i];
+//        }
+//    }
+
     static void rcopy(int[] a, int[] b) {
-        for (int i = 0; i < b.length; i++) {
+        for (int i = 0; i < b.length / 2; i++) {
+            a[i] = b[b.length - i - 1];
             a[b.length - i - 1] = b[i];
+        }
+        if (b.length % 2 != 0) {
+            a[b.length / 2] = b[b.length / 2];
         }
     }
 

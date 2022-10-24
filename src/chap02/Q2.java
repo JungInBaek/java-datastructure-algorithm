@@ -1,5 +1,6 @@
 package chap02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //  연습문제 Q2
@@ -13,10 +14,7 @@ public class Q2 {
 
     static void reverse(int[] a) {
         for (int i = 0; i < a.length / 2; i++) {
-            for (int j = 0; j < a.length; j++) {
-                System.out.print(a[j] + " ");
-            }
-            System.out.println();
+            System.out.println(Arrays.toString(a));
             swap(a, i, a.length - i - 1);
         }
     }
@@ -36,10 +34,7 @@ public class Q2 {
 
         reverse(x);
 
-        for (int i = 0; i < n; i++) {
-            System.out.print(x[i] + " ");
-        }
-        System.out.println();
+        System.out.println(Arrays.toString(x));
         System.out.println("역순 정렬을 마쳤습니다.");
     }
 }

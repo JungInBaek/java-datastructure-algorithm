@@ -11,6 +11,7 @@ public class Max3 {
         System.out.print("a의 값 : "); int a = scanner.nextInt();
         System.out.print("b의 값 : "); int b = scanner.nextInt();
         System.out.print("c의 값 : "); int c = scanner.nextInt();
+
         int max = a;
         if (b > max) max = b;
         if (c > max) max = c;
