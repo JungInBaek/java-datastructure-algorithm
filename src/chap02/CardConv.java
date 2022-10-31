@@ -19,6 +19,8 @@ public class CardConv {
             d[i] = d[digits - i - 1];
             d[digits - i - 1] = t;
         }
+
+        System.out.println("digits = " + digits);
         return digits;
     }
 

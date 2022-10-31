@@ -8,14 +8,20 @@ public class Q6 {
         int digits = 0;
         String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+        System.out.printf("%2d|%6d\n", r, x);
+        System.out.printf("%2s+-------\n", " ");
         do {
             d[digits++] = dchar.charAt(x % r);
             x /= r;
-        } while (x != 0);
+            System.out.printf("%2d|%6d ··· %s\n", r, x, d[digits - 1]);
+            System.out.printf("%2s+-------\n", " ");
+        } while (x != 1);
+        d[digits++] = dchar.charAt(x % r);
+        x /= r;
+        System.out.printf("%9d ··· %s\n", x, d[digits - 1]);
 
-        char t;
         for (int i = 0; i < digits / 2; i++) {
-            t = d[i];
+            char t = d[i];
             d[i] = d[digits - i - 1];
             d[digits - i - 1] = t;
         }
