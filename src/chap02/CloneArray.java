@@ -1,5 +1,8 @@
 package chap02;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 //  배열을 복제합니다.
 public class CloneArray {
     public static void main(String[] args) {
@@ -8,14 +11,8 @@ public class CloneArray {
 
         b[3] = 0;
 
-        System.out.print("a = ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(" " + a[i]);
-        }
-
-        System.out.print("\nb = ");
-        for (int i = 0; i < b.length; i++) {
-            System.out.print(" " + b[i]);
-        }
+        System.out.println("a = " + Arrays.toString(a));
+        System.out.println("b = " + Arrays.toString(b));
     }
+
 }
