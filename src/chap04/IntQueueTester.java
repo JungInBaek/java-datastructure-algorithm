@@ -2,7 +2,7 @@ package chap04;
 
 import java.util.Scanner;
 
-public class IntQueueTest {
+public class IntQueueTester {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         IntQueue intQueue = new IntQueue(64);
