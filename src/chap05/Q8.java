@@ -1,17 +1,49 @@
 package chap05;
 
+import chap04.IntStack;
+
 import java.util.Scanner;
 
 public class Q8 {
     static void move(int no, int x, int y) {
-        if (no > 1) {
-            move(no - 1, x, 6 - x - y);
-        }
+        IntStack xstk = new IntStack(no);
+        IntStack ystk = new IntStack(no);
+        IntStack sstk = new IntStack(no);
+        int sw = 0;
 
-        System.out.printf("원반[%d]을(를) %d번 기둥에서 %d번 기둥으로 옮김\n", no, x, y);
+        while (true) {
+            if (sw == 0 && no > 1) {
+                xstk.push(x);
+                ystk.push(y);
+                sstk.push(sw);
+                no -= 1;
+                y = 6 - x - y;
+                continue;
+            }
 
-        if (no > 1) {
-            move(no - 1, 6 - x - y, y);
+            System.out.printf("원반[%d]를 %d기둥에서 %d기둥으로 옮김 : %d\n", no, x, y, sw);
+
+            if (sw == 1 && no > 1) {
+                xstk.push(x);
+                ystk.push(y);
+                sstk.push(sw);
+                no -= 1;
+                x = 6 - x - y;
+                if (++sw == 2) {
+                    sw = 0;
+                }
+                continue;
+            }
+
+            do {
+                if (xstk.isEmpty() && ystk.isEmpty() && sstk.isEmpty()) {
+                    return;
+                }
+                x = xstk.pop();
+                y = ystk.pop();
+                sw = sstk.pop() + 1;
+                no++;
+            } while (sw == 2);
         }
     }
 
