@@ -28,7 +28,7 @@ public class QuickSort2 {
                     pl++;
                 }
                 while (a[pr] > x) {
-                    pl--;
+                    pr--;
                 }
                 if (pl <= pr) {
                     swap(a, pl++, pr--);
