@@ -106,9 +106,9 @@ public class ChainHash<K, V> {
     public void dump() {
         for (int i = 0; i < size; i++) {
             Node<K, V> p = table[i];
-            System.out.printf("%02d  ", i);
+            System.out.printf("%02d ", i);
             while (p != null) {
-                System.out.printf("→ %s (%s)  ", p.getKey(), p.getValue());
+                System.out.printf("→ %s (%s) ", p.getKey(), p.getValue());
                 p = p.next;
             }
             System.out.println();
